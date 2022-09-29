@@ -1,0 +1,7 @@
+
+jline jline jar s/2\..*/2.x/ * *
+junit junit jar s/4\..*/4.x/ * *
+org.apache.maven maven-* * s/.*/3.x/ * *
+org.apache.maven maven-archiver * s/.*/debian/ * *
+org.apache.maven s/maven-plugin-registry/maven-compat/ * s/.*/3.x/ * *
+org.codehaus.plexus plexus-component-metadata maven-plugin s/1.6/1.5.5/ * *

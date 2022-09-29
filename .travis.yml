@@ -1,0 +1,13 @@
+language: java
+#jdk: openjdk12
+jdk: oraclejdk11
+sudo: false
+
+# unit test
+#script: "./mvnw --batch-mode --activate-profiles indy clean test"
+
+# integration test
+before_install: "./mvnw --batch-mode clean"
+install: "./mvnw --batch-mode --activate-profiles indy install"
+before_script: "./mvnw --batch-mode invoker:install"
+script: "./mvnw --batch-mode --activate-profiles indy -Dinvoker.streamLogs=true invoker:run"

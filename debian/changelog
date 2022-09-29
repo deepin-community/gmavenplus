@@ -1,0 +1,31 @@
+gmavenplus (1.8.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * Standards-Version updated to 4.5.1
+  * Switch to debhelper level 13
+  * Use salsa.debian.org Vcs-* URLs
+  * Remove the Maven wrapper from the upstream tarball
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Mon, 25 Jan 2021 12:45:46 +0100
+
+gmavenplus (1.5-3) unstable; urgency=medium
+
+  * Depend on libplexus-classworlds-java instead of libplexus-classworlds2-java
+  * Depend on libplexus-container-default-java
+    instead of libplexus-container-default1.5-java
+  * Removed the unused build dependency on libmaven-install-plugin-java
+  * Standards-Version updated to 4.1.1
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Mon, 13 Nov 2017 14:15:52 +0100
+
+gmavenplus (1.5-2) unstable; urgency=medium
+
+  * Depend on libmaven3-core-java instead of libmaven2-core-java
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Mon, 31 Jul 2017 10:35:23 +0200
+
+gmavenplus (1.5-1) unstable; urgency=medium
+
+  * Initial release (Closes: #865627)
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Fri, 23 Jun 2017 12:09:02 +0200
